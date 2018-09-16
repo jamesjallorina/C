@@ -1,4 +1,3 @@
-#include<conio.h>
 #include<stdio.h>
 #include<math.h> 
 float f(float x)
@@ -29,6 +28,7 @@ void main()
 		s2=s2+f(x);
 	}
 	intgeral=(h/3.0)*(sum+2*s2+4*s3);
-	printf("\nvalue of the integral =%9.4f\n",integral);
-	getch();
+	printf("\nvalue of the integral =%9.4f\n",integral)
+	printf("press enter to continue...\n");
+	getchar();
 }
